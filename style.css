@@ -39,8 +39,42 @@ body {
     text-align: center;
 }
 
+/* nav section */
+
+.nav-heading{
+    font-size: 50px;
+    font-weight: 800;
+    margin-left: ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    margin-left: 30px;
+}
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    font-weight: 800;
+    background-color: rgba(0, 0, 0, 0.138);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+
 /* header section  */
-header {
+.sec-1 {
     background-color: rgba(229, 84, 115, 0.1);
 }
 
