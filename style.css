@@ -114,21 +114,25 @@ li a{
 }
 
 .bg1{
-    background-color:rgba(167, 33, 98, 0.15);;
+    background-color:rgba(167, 33, 98, 0.15);
+    box-shadow: 1px 1px 9px gray;
 }
 
 .bg2{
-    background-color:rgba(5, 151, 160, 0.15); ;
+    background-color:rgba(5, 151, 160, 0.15); 
+    box-shadow: 1px 1px 9px gray;
 }
 
 .bg3{
-    background-color:rgba(71, 125, 17, 0.15);;
+    background-color:rgba(71, 125, 17, 0.15);
+    box-shadow: 1px 1px 9px gray;
 }
 
 #img-1 {
     width: 310px;
     height: 428px;
     margin: 110px 78px 0 76px;
+    
 }
 
 #img-2 {
@@ -153,7 +157,22 @@ li a{
     margin-bottom: 130px;
 }
 
+/* section 2 */
 
+.sec-2-box{
+    box-shadow: 1px 1px 20px gray;
+    height: 400px;
+    width: 800px;
+    border-radius: 12px;
+    margin-top: 10px;
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,rgba(255, 99, 71, 0.743) ,rgb(163, 153, 153));
+    border-image-slice: 1;
+    
+}
+#sec-2-info-padding{
+    padding-top: 50px;
+}
 
 .text-red{
     color: rgb(229, 84, 115);
@@ -161,7 +180,6 @@ li a{
 .third-sec-flex{
     display: flex;
     justify-content:center;
-    align-items: center;
     padding-top: 100px;
 }
 .sec-2{
@@ -199,8 +217,9 @@ li a{
     background-image: url(images/Rectangle\ 9.png);
     background-repeat: no-repeat;
     background-size: 1440px 450px ;
-    height: 550px;
+    height: 450px;
     border-radius: 7px;
+    box-shadow: 1px 1px 20px gray;
 }
 #email-box{
     padding: 23px 513px 22px 22px;
@@ -218,12 +237,13 @@ li a{
 /* footer section */
 
 footer{
-    background-color: black;
-    height: 450px;
+    background-color: rgba(0, 0, 0, 0.745);
+    height: 550px;
+    margin-top: 100px;
 }
 .footer-align{
     text-align: center;
-    padding-top: 70px;
+    padding-top: 115px;
 }
 #footer-heading{
     font-size: 50px;
